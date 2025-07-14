@@ -9,7 +9,7 @@ int main(){
     for (int &v : a) cin >> v;
 
     H = *max_element(a.begin(), a.end()); // Pega o maior elemento do vetor
-    vector<vector<int>> m(H, vector<int>(n, 0)); // Inicializa com 0's
+    vector<vector<int>> m(H, vector<int>(n, 0)); // Inicializa uma matriz HxN com 0's
 
     for(int j = 0;j < n; j++) {
         for (int i = H-a[j]; i < H; i++) {
