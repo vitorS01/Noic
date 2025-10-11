@@ -10,9 +10,9 @@ int main(){
     }
     
     if(cnt<n) {
-        cout << "NO\n";
+        cout << "N\n";
     } else {
-        cout << "YES\n";
+        cout << "S\n";
     }
 
     return 0;
