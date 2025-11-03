@@ -2,8 +2,6 @@
 using namespace std;
 
 /*
-Solução escrita por Júlia Tiosso:
-
 Subtarefa 1: A<=B<=C
 Nesse caso, a ordem ótima de entrega das fitinhas para os níveis é A, B, C.
 
