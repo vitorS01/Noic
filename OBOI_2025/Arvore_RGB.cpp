@@ -42,7 +42,7 @@ dessa forma para calcular o topo basta ver quem ficaria no topo das pontas da ba
 tome k = 5, temos que B = 244. Que é aproximadamente sqrt(n).
 Para resolver o problema podemos precalcular algumas fileiras da piramide usando a propriedade para calcular a fileira B caras acima bem rápido
 Assim podemos responder as queries considerando a fileira mais no topo da query para termos que iterar por no máximo sqrt(n) caras fazendo da mesma forma
-que a subtarefa 3. Finalizando assim o problema com um algoritmo que funciona em O((n+q)*B) onde B é aproximadamente sqrt(n)
+que a subtarefa 3. Finalizando assim o problema com um algoritmo que funciona em O((n+q)*B*log_3(N)) onde B é aproximadamente sqrt(n)
 */
 
 #define rep(i,a,b) for(int i = a; i <= b; ++i)
