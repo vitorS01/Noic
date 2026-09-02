@@ -19,5 +19,5 @@ int main() {
     }
 
     cout << time1 << '\n';
-    cout << tim2 << '\n';
+    cout << time2 << '\n';
 }
